@@ -17,12 +17,13 @@ export default function RootLayout({
         <header>
            <NavbarComponent />
            </header>
-           <footer className="h-screen flex flex-col">
-            <FooterComponent/>
-           </footer>
+           
        
         {children}
       </body>
+      <footer className="h-screen flex flex-col">
+            <FooterComponent/>
+           </footer>
     </html>
   );
 }

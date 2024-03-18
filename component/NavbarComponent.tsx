@@ -9,7 +9,7 @@ import {
 
 export default function NavbarComponent() {
   return (
-    <Navbar fluid rounded className=" w-full bg-blue-700 text-white font-bold">
+    <Navbar fluid rounded className=" navbar sticky-top navbar-expand-lg navbar-light bg-light non-scroll-bg">
       <NavbarBrand as={Link} href="https://flowbite-react.com">
         <img
           src="/next.svg"
