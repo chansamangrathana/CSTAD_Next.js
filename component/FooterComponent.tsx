@@ -24,6 +24,7 @@ export default function FooterComponent() {
                 Start your IT career with CSTAD
               </p>
             </div>
+            
             <div>
               <FooterTitle className="text-white" title="LEARN MORE" />
               <FooterLinkGroup col>
