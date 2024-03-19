@@ -20,7 +20,7 @@ export default function RootLayout({
        
         {children}
       </body>
-      <footer >
+      <footer className="bg-blue-800" >
             <FooterComponent/>
            </footer>
     </html>
