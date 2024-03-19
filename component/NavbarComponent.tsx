@@ -9,30 +9,30 @@ import {
 
 export default function NavbarComponent() {
   return (
-    <Navbar fluid rounded className=" navbar sticky-top navbar-expand-lg navbar-light bg-light non-scroll-bg">
+    <header>
+    <Navbar  className="p-2 container mx-auto w-full bg-blue-800">
       <NavbarBrand as={Link} href="https://flowbite-react.com">
-        <img
-          src="/next.svg"
-          className="mr-3 h-6 sm:h-9"
-          alt="Flowbite React Logo"
+        <img className="w-10"
+          src="https://istad.co/resources/img/CSTAD_120.png"
         />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Flowbite React
+        <span className=" self-center whitespace-nowrap text-2xl font-bold text-white tracking-[.25em]">
+          CSTAD
         </span>
-      </NavbarBrand>
+      </NavbarBrand >
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink href="/" active>
+        <NavbarLink href="/" className="text-white">
           Home
         </NavbarLink>
-        <NavbarLink as={Link} href="/enroll">
+        <NavbarLink as={Link} href="/enroll" className="text-white">
           Enroll
         </NavbarLink>
-        <NavbarLink href="/course">Course</NavbarLink>
-        <NavbarLink href="/itNew">IT News</NavbarLink>
-        <NavbarLink href="/aboutUs">About Us</NavbarLink>
-        <NavbarLink href="/contect">Contact</NavbarLink>
+        <NavbarLink href="/course" className="text-white" >Course</NavbarLink>
+        <NavbarLink href="/itNew" className="text-white">IT News</NavbarLink>
+        <NavbarLink href="/aboutUs" className="text-white">About Us</NavbarLink>
+        <NavbarLink href="/contect" className="text-white">Contact</NavbarLink>
       </NavbarCollapse>
     </Navbar>
+    </header>
   );
 }

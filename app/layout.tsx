@@ -14,14 +14,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="h-screen flex flex-col">
-        <header>
+        
            <NavbarComponent />
-           </header>
            
        
         {children}
       </body>
-      <footer className="h-screen flex flex-col">
+      <footer >
             <FooterComponent/>
            </footer>
     </html>
