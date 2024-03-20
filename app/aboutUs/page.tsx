@@ -8,6 +8,7 @@ import {BsChat} from "react-icons/bs";
 import {FaMapMarker} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
 
+
 export default function page() {
     return (
         <>

@@ -2,7 +2,7 @@
 import { use } from "react";
 import "./globals.css";
 import NavbarComponent from "@/component/NavbarComponent"
-import FooterComponent from "@/component/FooterComponent"
+ import FooterComponent from "@/component/FooterComponent"
 
 
 
@@ -14,15 +14,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="h-screen flex flex-col">
-        
            <NavbarComponent />
-           
-       
         {children}
-      </body>
-      <footer className="bg-blue-800" >
+        <footer className="bg-blue-800" >
             <FooterComponent/>
            </footer>
+      </body>
+      git
     </html>
   );
 }
