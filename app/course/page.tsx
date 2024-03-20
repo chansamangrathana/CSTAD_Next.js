@@ -1,7 +1,14 @@
-import React from 'react'
+import React from "react";
 
-export default function page() {
+import CourseCardComponent from "@/component/Courses";
+
+export default function () {
   return (
-    <div>Course</div>
-  )
+    <div>
+      <div>
+        <h1 className="text-[24px] font-bold m-1 mt-3 text-center">COURSES</h1>
+      </div>
+      <CourseCardComponent />
+    </div>
+  );
 }
