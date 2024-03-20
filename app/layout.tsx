@@ -13,14 +13,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="h-screen flex flex-col">
+      <body className="bg-gray-200 flex flex-col justify-between w-full h-auto min-h-screen min-w-[300px]">
            <NavbarComponent />
         {children}
         <footer className="bg-blue-800" >
             <FooterComponent/>
            </footer>
       </body>
-      git
+      
     </html>
   );
 }
