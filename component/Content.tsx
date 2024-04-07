@@ -58,7 +58,7 @@ export default function Content () {
      
       ]
     return(
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
         <div className="ml-[0px]">
             <CardCarousel courses={courses1}/>
         </div>

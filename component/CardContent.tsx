@@ -8,9 +8,9 @@ export default function CardCarousel({ courses }: CourseProps) {
     const firstFourCourses = courses.slice(0,4)
     console.log(firstFourCourses)
     return (
-      <div className="grid grid-cols-4 gap-[24px]">
+      <div className="grid grid-cols-4">
         {firstFourCourses.map(course => (
-          <Card key={course.id} className="w-[278px] mb-5" imgAlt="Meaningful alt text for an image that is not purely decorative">
+          <Card key={course.id} className="w-[200px] mb-5" imgAlt="Meaningful alt text for an image that is not purely decorative">
             <img src={course.image} alt="" />
             <div className='flex justify-between'>
               <div>

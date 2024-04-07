@@ -23,7 +23,7 @@ export default function SliderComponent() {
                 graduates have been guaranteed excellent job opportunities with
                 the Top IT company. Enroll Now
               </p>
-              <a href="/enroll" className="w-[150px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-6 md:mt-10">
+              <a href="/enroll" className="w-[150px] bg-blue-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-6 md:mt-10">
                 Enroll Now
               </a>
             </div>
@@ -42,7 +42,7 @@ export default function SliderComponent() {
               <p className="mb-5 max-w-md">
                 Advanced IT Center in Cambodia
               </p>
-              <a href="/enroll" className="w-[150px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-6 md:mt-10">
+              <a href="/enroll" className="w-[150px] bg-blue-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-6 md:mt-10">
                 Enroll Now
               </a>
             </div>
@@ -63,7 +63,7 @@ export default function SliderComponent() {
                 Build up the capacity and career of IT experts Cambodia
                 Consult and connect CSTAD trainees to top IT careers
               </p>
-              <a href="/enroll" className="w-[150px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-6 md:mt-10">
+              <a href="/enroll" className="w-[150px] bg-blue-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-6 md:mt-10">
                 Enroll Now
               </a>
             </div>
